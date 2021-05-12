@@ -48,12 +48,17 @@ var ul = document.querySelector("ul");
 // ** 2. FUNCIONES
 
 //Agregar tarea
-function addListAfterClick() {
-
+function handleClick() {
+    if(input.value.length > 0) {
+        createListElement();
+    }
 }
 //Añadir tarea en el HTML
-function createList() {
-    
+function createListElement() {
+    var li = document.createElement('li'); //create li element
+    li.innerHTML = input.value; //assigning text input to li element
+    li.classList.add("list-group-item"); // add styles
+    ul.appendChild(li); //append li to ul
 }
 //Eliminar tarea en el HTML
 function removeList() {
@@ -65,10 +70,10 @@ function cleanList () {
 }
 //Modificar tarea
 function modifyList() {
-    
+
 }
 // ** 3. EVENTOS   
 
 // click botón
-
+button.addEventListener("click", handleClick)
 // apretar tecla??
