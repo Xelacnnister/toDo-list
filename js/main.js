@@ -1,4 +1,7 @@
+/*---------------*/
 // 1. REQUISITOS
+/*---------------*/
+
 // 1.1 Petición de funcionalidad (reunión 1-2h con jefe de negocio, de servicios, product owner o project manager)
 // Tip: Apuntar todo en la reunión
 
@@ -31,8 +34,13 @@
 // - Mejorar maquetación
 
 //2.2 Tareas concretas -> ganar focus
-// - C1 [HTML]Crear input y button bootstrap y dejar espacio para el listado <ul> [1h]
-// - C2 [JS] Definir las variables que necesitará el programa
+// C1 [HTML] Implementar bootstrap + crear input + button bootstrap + dejar espacio para el listado <ul> [1h]
+// -> C2 [JS] Definir las variables que necesitará el programa
 // - C3 [JS] Definir todas las funciones vacías de javascript
 // - C4 [JS] Rellenar lógica de funciones: una a una!! -> probar -> siguiente
 // - C5 [HTML] Mejorar interficie
+
+//Variables
+var input = document.getElementById("userInput");
+var enterButton = document.getElementById("button");
+var ul = document.querySelector("ul");
