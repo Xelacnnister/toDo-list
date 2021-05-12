@@ -40,7 +40,35 @@
 // - C4 [JS] Rellenar lógica de funciones: una a una!! -> probar -> siguiente
 // - C5 [HTML] Mejorar interficie
 
-//Variables
+// ** 1. VARIABLES
 var input = document.getElementById("userInput");
 var enterButton = document.getElementById("button");
 var ul = document.querySelector("ul");
+
+// ** 2. FUNCIONES
+
+//Agregar tarea
+function addListAfterClick() {
+
+}
+//Añadir tarea en el HTML
+function createList() {
+    
+}
+//Eliminar tarea en el HTML
+function removeList() {
+
+}
+// Limpiar tareas
+function cleanList () {
+
+}
+//Modificar tarea
+function modifyList() {
+    
+}
+// ** 3. EVENTOS   
+
+// click botón
+
+// apretar tecla??
